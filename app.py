@@ -3,6 +3,7 @@ from pathlib import Path
 import pickle
 import streamlit as st
 import gzip
+import sklearn
 
 # Paths
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
