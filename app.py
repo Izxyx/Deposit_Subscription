@@ -65,8 +65,8 @@ def main2():
         st.title('\n')
 
 if __name__ == '__main__':
-    
-    with gzip.open('./model/random.pkl','rb') as f:
+
+    with gzip.open('random.pkl','rb') as f:
         model = pickle.load(f)
     
     main()
