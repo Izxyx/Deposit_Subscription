@@ -31,7 +31,7 @@ def main():
 def main2():
     st.header('Will client subscribe?...')
 
-    if st.button(' PREDICT '):
+    if st.button('  PREDICT  '):
 
         result = model.predict([[
             age,
