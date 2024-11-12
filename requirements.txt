@@ -1,4 +1,6 @@
-streamlit==1.13.0
-scikit-learn==1.1.2
-numpy==1.22.4
-pandas==1.4.0
+streamlit==1.40.1
+altair==5.4.1
+scikit-learn==1.2.2
+pickleshare==0.7.5
+pandas==2.1.4
+numpy==1.26.3
